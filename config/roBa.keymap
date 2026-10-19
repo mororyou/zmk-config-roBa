@@ -12,6 +12,7 @@
 
 &trackball {
     // automouse-layer = <4>;
+
     scroll-layers = <5>;
 
     // arrows {
@@ -111,10 +112,10 @@
 
         Brackets {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp GRAVE
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN      &kp GT            &kp MINUS
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LEFT_BRACE     &kp RIGHT_BRACE   &kp EQUAL
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                                            &trans
+&trans  &trans  &trans          &kp UP_ARROW    &trans                               &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp GRAVE
+&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans      &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN      &kp GT            &kp MINUS
+&trans  &trans  &trans          &trans          &trans           &trans      &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LEFT_BRACE     &kp RIGHT_BRACE   &kp EQUAL
+&trans  &trans  &trans          &trans          &trans           &trans      &trans  &trans                                                                            &trans
             >;
         };
 
